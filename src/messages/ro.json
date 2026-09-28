@@ -1,0 +1,177 @@
+{
+  "Metadata": {
+    "homeTitle": "A&V Poligraf — Tipografie în Comrat | Print, design, bannere",
+    "homeDescription": "Tipografie A&V Poligraf în Comrat (Găgăuzia). Print digital și de format mare, cărți de vizită, broșuri, bannere, oracal, design. Din 2008. Rapid și de calitate.",
+    "servicesTitle": "Servicii tipografie — A&V Poligraf Comrat",
+    "servicesDescription": "Gamă completă de servicii poligrafice în Comrat: cărți de vizită, bannere, broșuri, fluturași, fototapet, pânză, laminare, legătorie.",
+    "portfolioTitle": "Portofoliu — Lucrările noastre | A&V Poligraf",
+    "portfolioDescription": "Exemple de lucrări ale tipografiei A&V Poligraf: cărți de vizită, bannere, poligrafie și design pentru business din Găgăuzia.",
+    "aboutTitle": "Despre companie — A&V Poligraf SRL | Tipografie din 2008",
+    "aboutDescription": "A&V Poligraf — tipografie locală în Comrat. Ciclu complet: design + print. Experiență din 2008. Director Anatoli Tomaili.",
+    "contactTitle": "Contacte și cerere — A&V Poligraf Comrat",
+    "contactDescription": "Contactați tipografia A&V Poligraf din Comrat. Tel: +373 79 955 020. Solicitați oferta online."
+  },
+  "Nav": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "portfolio": "Portofoliu",
+    "about": "Despre noi",
+    "contact": "Contacte",
+    "getQuote": "Solicită ofertă",
+    "phone": "+373 79 955 020"
+  },
+  "Hero": {
+    "title": "Tipografie cu ciclu complet în Comrat",
+    "subtitle": "Design + print într-o zi. Bannere, cărți de vizită, broșuri și poligrafie operativă pentru business din Găgăuzia din 2008.",
+    "ctaQuote": "Solicită ofertă",
+    "ctaPortfolio": "Vezi lucrările"
+  },
+  "Advantages": {
+    "title": "De ce ne aleg",
+    "items": {
+      "speed": { "title": "Termene", "desc": "Print operativ — majoritatea comenzilor într-o zi" },
+      "local": { "title": "Localitate", "desc": "Suntem în Comrat. Livrare rapidă în Găgăuzia" },
+      "fullCycle": { "title": "Design + print", "desc": "Ciclu complet într-un loc — de la machetă la produs finit" },
+      "quality": { "title": "Calitate", "desc": "Echipamente moderne și control la fiecare etapă" },
+      "experience": { "title": "Experiență din 2008", "desc": "Peste 15 ani de lucru cu business, școli și administrații" },
+      "range": { "title": "Gamă completă", "desc": "De la cărți de vizită la bannere de format mare și fototapet" }
+    }
+  },
+  "Services": {
+    "title": "Servicii populare",
+    "viewAll": "Toate serviciile",
+    "from": "de la",
+    "lei": "lei",
+    "items": {
+      "businessCards": { "title": "Cărți de vizită", "desc": "Clasice, laminate, cu folie. De la 50 buc.", "price": "150" },
+      "banners": { "title": "Bannere", "desc": "Print de format mare, oracal, ocheturi. Orice dimensiuni.", "price": "80" },
+      "booklets": { "title": "Broșuri și fluturași", "desc": "Print digital, pliere, legătorie.", "price": "1.5" },
+      "design": { "title": "Design", "desc": "Machete cărți de vizită, logo-uri, materiale publicitare.", "price": "300" },
+      "canvas": { "title": "Pânză și fototapet", "desc": "Print pe pânză, fototapet interior.", "price": "120" },
+      "lamination": { "title": "Laminare și legătorie", "desc": "Protecție documente, legătorie, rizograf.", "price": "5" }
+    },
+    "pageTitle": "Serviciile noastre",
+    "pageSubtitle": "Ciclu complet de servicii poligrafice în Comrat — de la idee la produs finit",
+    "details": "Detalii",
+    "order": "Comandă",
+    "deadline": "Termen",
+    "priceFrom": "Preț de la"
+  },
+  "Portfolio": {
+    "title": "Lucrările noastre",
+    "subtitle": "Comenzi reale pentru business și organizații din Găgăuzia",
+    "viewAll": "Toate lucrările",
+    "filterAll": "Toate",
+    "filters": {
+      "cards": "Cărți de vizită",
+      "banners": "Bannere",
+      "print": "Poligrafie",
+      "design": "Design"
+    },
+    "items": {
+      "1": { "title": "Cărți de vizită pentru firmă de construcții", "category": "cards", "desc": "Cărți de vizită laminate pe ambele fețe, 500 buc." },
+      "2": { "title": "Banner pe fațada magazinului", "category": "banners", "desc": "Banner de format mare 3×2 m cu ocheturi" },
+      "3": { "title": "Broșuri pentru școală", "category": "print", "desc": "Broșuri A4, 1000 buc., print digital" },
+      "4": { "title": "Logo și identitate vizuală", "category": "design", "desc": "Dezvoltare logo și brandbook pentru cafenea" },
+      "5": { "title": "Fototapet în birou", "category": "banners", "desc": "Fototapet interior 4×2.5 m" },
+      "6": { "title": "Fluturași publicitari", "category": "print", "desc": "Fluturași A5, 2000 buc., print color" },
+      "7": { "title": "Cărți de vizită cu folie", "category": "cards", "desc": "Cărți de vizită premium cu stamping folie" },
+      "8": { "title": "Stand pentru expoziție", "category": "banners", "desc": "Banner roll-up + print pe plastic" }
+    }
+  },
+  "About": {
+    "title": "Despre A&V Poligraf",
+    "subtitle": "Tipografie locală cu ciclu complet în Comrat din 2008",
+    "historyTitle": "Istoria noastră",
+    "history": "A&V Poligraf SRL a fost fondată în 2008 în Comrat. Din primele zile ne specializăm în poligrafie operativă și print de format mare pentru business, școli și administrații din Găgăuzia. Director — Anatoli Tomaili.",
+    "whatWeDoTitle": "Ce facem",
+    "whatWeDo": "Print digital, print de format mare, design machete, cărți de vizită, broșuri, fluturași, bannere, oracal, fototapet, print pe pânză, laminare, legătorie, rizograf. Ciclu complet — de la idee la produs finit.",
+    "equipmentTitle": "Echipamente",
+    "equipment": "Imprimante digitale și de format mare moderne, laminatoare, tăietoare, echipamente de legătorie. Actualizăm constant parcul pentru a asigura calitate și viteză.",
+    "whyUsTitle": "De ce ne aleg",
+    "whyUs": [
+      "Peste 15 ani de experiență pe piața locală",
+      "Termene rapide — majoritatea comenzilor într-o zi",
+      "Ciclu complet: design + print într-un loc",
+      "Lucrăm cu business, școli și administrații",
+      "Prețuri corecte și termene transparente"
+    ]
+  },
+  "Contact": {
+    "title": "Contacte",
+    "subtitle": "Lăsați o cerere — vă sunăm în cel mai scurt timp",
+    "formTitle": "Cerere de ofertă",
+    "name": "Nume",
+    "phone": "Telefon",
+    "email": "Email (opțional)",
+    "service": "Tip serviciu",
+    "servicePlaceholder": "Selectați serviciul",
+    "description": "Descrierea sarcinii",
+    "deadline": "Termen dorit",
+    "file": "Atașați fișier (machetă)",
+    "submit": "Trimite cererea",
+    "success": "Mulțumim! Vă vom contacta în cel mai scurt timp.",
+    "address": "Comrat, UTA Găgăuzia, Moldova",
+    "hours": "Lun–Vin: 9:00–18:00, Sâm: 9:00–14:00",
+    "phone1": "+373 79 955 020",
+    "phone2": "+373 79 033 961",
+    "email1": "avpoligraf@gmail.com",
+    "email2": "designavpoligraf@mail.ru",
+    "mapTitle": "Suntem pe hartă",
+    "messengers": "Scrieți pe messenger"
+  },
+  "Footer": {
+    "tagline": "Tipografie cu ciclu complet în Comrat din 2008",
+    "quickLinks": "Link-uri rapide",
+    "contacts": "Contacte",
+    "rights": "© {year} A&V Poligraf SRL. Toate drepturile rezervate."
+  },
+  "Common": {
+    "loading": "Se încarcă...",
+    "close": "Închide",
+    "back": "Înapoi"
+  },
+  "Trust": {
+    "years": "ani de experiență",
+    "orders": "comenzi finalizate",
+    "clients": "clienți mulțumiți"
+  },
+  "ServicesList": {
+    "businessCards": {
+      "title": "Cărți de vizită",
+      "full": "Print cărți de vizită în orice format: clasice, laminate, cu lac UV, cu folie. Tiraj minim de la 50 buc. Termen — de la câteva ore.",
+      "deadline": "de la 2 ore",
+      "price": "de la 150 lei / 50 buc."
+    },
+    "banners": {
+      "title": "Bannere și print de format mare",
+      "full": "Bannere de orice complexitate, oracal, stickere, roll-up, fototapet. Print pe țesătură banner, film, hârtie. Montaj ocheturi.",
+      "deadline": "de la 1 zi",
+      "price": "de la 80 lei / m²"
+    },
+    "booklets": {
+      "title": "Broșuri, fluturași, cataloage",
+      "full": "Print digital broșuri, fluturași, cataloage. Pliere, capse, legătorie. Tiraje de la 50 buc.",
+      "deadline": "de la 1 zi",
+      "price": "de la 1.5 lei / buc."
+    },
+    "design": {
+      "title": "Design și machete",
+      "full": "Dezvoltare logo-uri, cărți de vizită, materiale publicitare, identitate vizuală. Pregătire machete pentru print.",
+      "deadline": "de la 1 zi",
+      "price": "de la 300 lei"
+    },
+    "canvas": {
+      "title": "Pânză, fototapet, print interior",
+      "full": "Print pe pânză, fototapet interior, tablouri. Calitate înaltă a redării culorilor.",
+      "deadline": "de la 1–2 zile",
+      "price": "de la 120 lei / m²"
+    },
+    "finishing": {
+      "title": "Laminare, legătorie, rizograf",
+      "full": "Laminare documente, legătorie, legat, print rizografic pentru tiraje mari.",
+      "deadline": "în ziua solicitării",
+      "price": "de la 5 lei"
+    }
+  }
+}
