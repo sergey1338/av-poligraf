@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { CheckCircle2 } from 'lucide-react';
+import MapEmbed from '@/components/MapEmbed';
+import { CheckCircle2, MapPin, Clock, Star, Phone } from 'lucide-react';
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -13,6 +14,7 @@ export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('About');
+  const tContact = await getTranslations('Contact');
   const whyUs = t.raw('whyUs') as string[];
 
   return (
@@ -22,9 +24,18 @@ export default async function AboutPage({ params }: Props) {
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">{t('title')}</h1>
           <p className="text-lg text-slate-600">{t('subtitle')}</p>
         </div>
-        <div className="mb-16">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">{t('historyTitle')}</h2>
-          <p className="text-slate-600 leading-relaxed max-w-3xl">{t('history')}</p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+          <div>
+            <h2 className="text-2xl font-semibold text-slate-900 mb-4">{t('historyTitle')}</h2>
+            <p className="text-slate-600 leading-relaxed mb-6">{t('history')}</p>
+            <ul className="space-y-3 text-sm text-slate-700">
+              <li className="flex items-start gap-2"><MapPin className="w-4 h-4 text-orange-500 mt-0.5 shrink-0" />{tContact('address')}</li>
+              <li className="flex items-center gap-2"><Clock className="w-4 h-4 text-orange-500 shrink-0" />{tContact('hours')}</li>
+              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-orange-500 shrink-0" /><a href="tel:+37379955020" className="hover:text-blue-700">{tContact('phone1')}</a></li>
+              <li className="flex items-center gap-2"><Star className="w-4 h-4 text-orange-500 fill-orange-500 shrink-0" />{tContact('rating')} ★ · Google Maps</li>
+            </ul>
+          </div>
+          <MapEmbed className="h-[320px]" />
         </div>
         <div className="mb-16">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">{t('whatWeDoTitle')}</h2>
