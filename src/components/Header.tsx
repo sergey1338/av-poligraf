@@ -13,9 +13,11 @@ export default function Header() {
   const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const tCalc = useTranslations('Calculator');
   const navItems = [
     { href: '/', label: t('home') },
     { href: '/services', label: t('services') },
+    { href: '/calculator', label: tCalc('nav') },
     { href: '/portfolio', label: t('portfolio') },
     { href: '/about', label: t('about') },
     { href: '/contact', label: t('contact') },
@@ -30,9 +32,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-800 to-blue-600 flex items-center justify-center text-white font-bold text-lg">
-              A&V
-            </div>
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-800 to-blue-600 flex items-center justify-center text-white font-bold text-lg">A&V</div>
             <div className="hidden sm:block">
               <div className="font-bold text-slate-900 text-lg leading-tight">A&V Poligraf</div>
               <div className="text-xs text-slate-500">Comrat · 2008</div>
@@ -41,16 +41,7 @@ export default function Header() {
 
           <nav className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={cn(
-                  'px-3 py-2 rounded-md text-sm font-medium transition-colors',
-                  pathname === item.href
-                    ? 'text-blue-800 bg-blue-50'
-                    : 'text-slate-700 hover:text-blue-800 hover:bg-slate-50'
-                )}
-              >
+              <Link key={item.href} href={item.href} className={cn('px-3 py-2 rounded-md text-sm font-medium transition-colors', pathname === item.href ? 'text-blue-800 bg-blue-50' : 'text-slate-700 hover:text-blue-800 hover:bg-slate-50')}>
                 {item.label}
               </Link>
             ))}
