@@ -10,29 +10,31 @@ export default function JsonLd() {
     email: 'avpoligraf@gmail.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Strada Lenin 192/8',
       addressLocality: 'Comrat',
       addressRegion: 'Gagauzia',
+      postalCode: 'MD-3800',
       addressCountry: 'MD',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 46.2947,
-      longitude: 28.6565,
+      latitude: 46.3014,
+      longitude: 28.6575,
     },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '09:00',
-        closes: '18:00',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: 'Saturday',
-        opens: '09:00',
-        closes: '14:00',
+        opens: '08:00',
+        closes: '17:00',
       },
     ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.3',
+      bestRating: '5',
+      worstRating: '1',
+    },
     priceRange: '$$',
     foundingDate: '2008',
   };
